@@ -132,7 +132,7 @@ function ppusum()
 
  
 function ids(){
-  // list of ids
+VarDate.forEach(element =>console.log(element .id))
 VarDate.forEach(element => element.batters.batter.forEach(test => console.log(test.id)))
 VarDate.forEach(element => element.topping.forEach(test => console.log(test.id)))
 
